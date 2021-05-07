@@ -1,0 +1,21 @@
+GET http://localhost:8080/springmvc3_war/app/hi1
+
+###
+POST http://localhost:8080/springmvc3_war/app/hi2
+Content-Type: application/json
+
+{
+ "name": "xiaoming"
+}
+
+###
+
+POST http://localhost:8080/springmvc3_war/app/hi3
+Content-Type: application/json
+
+{
+  "name": "xiaoming",
+  "age": 10
+}
+
+###
